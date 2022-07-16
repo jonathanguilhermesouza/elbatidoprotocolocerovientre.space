@@ -38,7 +38,7 @@
 
 
   function URLModifier(customKey) {
-    var searchKeyWord = 'utm_campaign'; // replace utm_campaign to any key you want to search for
+    var searchKeyWord = 'tid'; // replace utm_campaign to any key you want to search for
     var searchKeyWordUrl = getParamFromURL(searchKeyWord);
     if (searchKeyWordUrl) {
       $('[data-page-redirect-url]').each(function () {
